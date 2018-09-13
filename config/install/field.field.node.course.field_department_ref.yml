@@ -2,13 +2,13 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_department_reference
-    - node.type.drupal_classroom_content
+    - field.storage.node.field_department_ref
+    - node.type.course
     - taxonomy.vocabulary.department
-id: node.drupal_classroom_content.field_department_reference
-field_name: field_department_reference
+id: node.course.field_department_ref
+field_name: field_department_ref
 entity_type: node
-bundle: drupal_classroom_content
+bundle: course
 label: 'Department Reference'
 description: ''
 required: false

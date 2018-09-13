@@ -1,12 +1,11 @@
-uuid: 6f876380-159d-4374-a024-bd83c3b9044f
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-id: node.field_course_reference
-field_name: field_course_reference
+id: node.field_course_ref
+field_name: field_course_ref
 entity_type: node
 type: entity_reference
 settings:

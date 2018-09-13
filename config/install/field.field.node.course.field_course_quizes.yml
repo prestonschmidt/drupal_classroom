@@ -3,13 +3,13 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_course_quizes
-    - node.type.drupal_classroom_content
+    - node.type.course
   module:
     - webform
-id: node.drupal_classroom_content.field_course_quizes
+id: node.course.field_course_quizes
 field_name: field_course_quizes
 entity_type: node
-bundle: drupal_classroom_content
+bundle: course
 label: 'Course Quizes'
 description: ''
 required: false

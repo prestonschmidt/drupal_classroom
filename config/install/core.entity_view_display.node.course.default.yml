@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.field.node.course.field_content_ckeditor
     - field.field.node.course.field_course_instructor
-    - field.field.node.course.field_course_reference
+    - field.field.node.course.field_course_ref
     - field.field.node.course.field_course_users
     - field.field.node.course.field_file_attachments
     - field.field.node.course.field_webform_reference
@@ -26,7 +26,7 @@ content:
     region: content
 hidden:
   field_course_instructor: true
-  field_course_reference: true
+  field_course_ref: true
   field_course_users: true
   field_file_attachments: true
   field_webform_reference: true

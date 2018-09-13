@@ -2,14 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.fieldcourse_due_date
-    - node.type.drupal_classroom_content
+    - field.storage.node.field_course_due_date
+    - node.type.course
   module:
     - datetime
-id: node.drupal_classroom_content.fieldcourse_due_date
-field_name: fieldcourse_due_date
+id: node.course.field_course_due_date
+field_name: field_course_due_date
 entity_type: node
-bundle: drupal_classroom_content
+bundle: course
 label: 'Due Date'
 description: ''
 required: false

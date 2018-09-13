@@ -1,12 +1,11 @@
-uuid: 3cd63c23-1765-4fd1-a7f3-b2b5cfb0da75
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-id: node.field_department_reference
-field_name: field_department_reference
+id: node.field_department_ref
+field_name: field_department_ref
 entity_type: node
 type: entity_reference
 settings:

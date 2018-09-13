@@ -4,8 +4,8 @@ dependencies:
   module:
     - datetime
     - node
-id: node.fieldcourse_due_date
-field_name: fieldcourse_due_date
+id: node.field_course_due_date
+field_name: field_course_due_date
 entity_type: node
 type: datetime
 settings:
