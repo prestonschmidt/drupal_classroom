@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: course_path_pattern
+label: 'Course Path Pattern'
+type: 'canonical_entities:node'
+pattern: 'course/[current-page:title]'
+selection_criteria:
+  fdefe169-489e-4909-8c9a-24e551c5a9c1:
+    id: node_type
+    bundles:
+      course: course
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: -5
+relationships: {  }

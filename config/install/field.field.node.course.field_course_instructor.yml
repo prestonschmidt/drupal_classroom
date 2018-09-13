@@ -1,0 +1,32 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_instructor
+    - node.type.course
+id: node.course.field_course_instructor
+field_name: field_course_instructor
+entity_type: node
+bundle: course
+label: 'Course Instructor'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: role
+      role:
+        instructor: instructor
+        contributor: '0'
+        site_manager: '0'
+        student: '0'
+    target_bundles: null
+    sort:
+      field: _none
+    auto_create: false
+field_type: entity_reference

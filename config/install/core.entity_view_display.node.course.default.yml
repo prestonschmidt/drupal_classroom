@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.course.field_content_ckeditor
+    - field.field.node.course.field_course_instructor
+    - field.field.node.course.field_course_reference
+    - field.field.node.course.field_course_users
+    - field.field.node.course.field_file_attachments
+    - field.field.node.course.field_webform_reference
+    - node.type.course
+  module:
+    - text
+    - user
+id: node.course.default
+targetEntityType: node
+bundle: course
+mode: default
+content:
+  field_content_ckeditor:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+hidden:
+  field_course_instructor: true
+  field_course_reference: true
+  field_course_users: true
+  field_file_attachments: true
+  field_webform_reference: true
+  links: true
+  private_message_link: true
+  share_everywhere: true

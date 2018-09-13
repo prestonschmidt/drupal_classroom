@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: student
+label: Student
+weight: 6
+is_admin: null
+permissions:
+  - 'use private messaging system'
+  - 'use text format full_html'
+  - 'view own unpublished content'

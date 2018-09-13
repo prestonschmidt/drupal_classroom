@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.course
+  module:
+    - text
+id: taxonomy_term.course.default
+targetEntityType: taxonomy_term
+bundle: course
+mode: default
+content:
+  description:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
