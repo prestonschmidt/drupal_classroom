@@ -2,6 +2,7 @@ name: Drupal Classroom
 description: 'Course Content Type and Associated Views, Blocks, and config. '
 type: module
 core: 8.x
-package: drupal_classroom_package
+package: 'Drupal Classroom'
 dependencies:
   - prototype_content
+  - user_theming

@@ -1,6 +1,8 @@
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.course
   module:
     - better_exposed_filters
     - user

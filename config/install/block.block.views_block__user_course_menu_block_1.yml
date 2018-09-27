@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.user_course_menu
+    - node.type.course
+  module:
+    - user
+    - views
+  theme:
+    - prototype_theme
+id: views_block__user_course_menu_block_1
+theme: prototype_theme
+region: sidebar_admin
+weight: 0
+provider: null
+plugin: 'views_block:user_course_menu-block_1'
+settings:
+  id: 'views_block:user_course_menu-block_1'
+  label: 'My Courses'
+  provider: views
+  label_display: visible
+  views_label: 'My Courses'
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      student: student
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

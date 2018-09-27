@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.user.compact
+    - node.type.course
   module:
     - node
     - user

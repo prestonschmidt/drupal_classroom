@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - user.role.instructor
+    - node.type.course
   module:
     - better_exposed_filters
     - user
